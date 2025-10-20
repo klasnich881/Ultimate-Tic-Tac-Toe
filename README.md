@@ -8,7 +8,7 @@ Transform a classic board-game twist into a modern web experience. Two players (
 
 ---
 
-## 📸 Demo
+##  Demo
 
 <!-- Replace with GIF or screenshot -->
 
@@ -16,7 +16,7 @@ Transform a classic board-game twist into a modern web experience. Two players (
 
 ---
 
-## ✨ Highlights
+##  Highlights
 
 - **Instant matchmaking:** Players auto-join the next available room—no manual codes required.
 - **Authoritative server:** A shared game state (boards, winners, active board) is validated server-side to prevent desyncs.
@@ -26,7 +26,7 @@ Transform a classic board-game twist into a modern web experience. Two players (
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer    | Technologies                         |
 | -------- | ------------------------------------ |
@@ -36,7 +36,7 @@ Transform a classic board-game twist into a modern web experience. Two players (
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites
 
@@ -88,7 +88,7 @@ Create a `.env` (client) or server-side `.env` file as needed and keep secrets o
 
 ---
 
-## 🧰 npm Scripts
+##  npm Scripts
 
 | Command           | Description                            |
 | ----------------- | -------------------------------------- |
@@ -100,7 +100,7 @@ Create a `.env` (client) or server-side `.env` file as needed and keep secrets o
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -114,7 +114,7 @@ src/
 
 ---
 
-## 🧭 Implementation Notes
+##  Implementation Notes
 
 - **State Sync:** Client renders entirely from server emissions. Moves emit only `{ boardIndex, cellIndex }`; the server updates and re-broadcasts authoritative state.
 - **Active Board Logic:** Server identifies closed boards (won/draw) to reopen the selection, mirroring official Ultimate Tic-Tac-Toe rules.
@@ -123,7 +123,7 @@ src/
 
 ---
 
-## 🛣 Roadmap
+##  Roadmap
 
 - Rematch flow with persistent room codes.
 - Spectator mode with move history and undo/redo for analysis.
@@ -132,6 +132,6 @@ src/
 
 ---
 
-## 📄 License
+##  License
 
 MIT © 2025 klasnich881
